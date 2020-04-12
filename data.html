@@ -1,0 +1,180 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STENCIL</title>
+</head>
+
+<body>
+
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+        <div class="page-header center">
+            <h1>~~~Snazzy Sports~~~</h1>
+        </div>
+        <h2> Where is the data from?</h2>
+        <a href='https://drive.google.com/drive/folders/1tX1RXYe--0spAGpcNr6KtiI5HLgtUC5X?fbclid=IwAR1KBvGUZrBaxFNWiG9lIaEBOmLZ5wKbIMBA4ZAE78ibMAPiG6UnvmUewB4'>
+          Here is a link to the data!
+        </a>
+        <h3>How was it collected?</h3>
+        We collected our data from a few different sources. The data about
+        campaign contributions to different political candidates comes
+        from the API provided by opensecrets.org, which is a nonprofit organization
+        dedicated to understanding the role of money in politics. Data on the
+        performance of different securities came from Yahoo Finance.
+        <h3>Is the source reputable?</h3>
+        We believe the sources to be reliable. OpenSecrets is a nonprofit, so there
+        is no potential for business biases, and is regularly used by various news
+        outlets, such as CNN. Yahoo Finance is also widely used and has no incentive
+        to misrepresent the data it provides.
+        <h3> How was the sample selected? Is it comparably big or small? Does it
+        contain any bias?</h3>
+
+        Below are screenshots/tables containing the style/structure of some typical data
+        in our tables (note we included screenshots to avoid redundancy - the examples
+        we chose are pretty typical of the data at large).
+        <br>
+
+        This table shows candidate names to their ids, we also map IDs to election
+        years to a boolean if they won or lost.
+        <table class="table table-bordered table-hover table-condensed">
+<thead><tr><th title="Field #1">Name</th>
+<th title="Field #2">ID</th>
+</tr></thead>
+<tbody><tr>
+<td>Weeks, James</td>
+<td>N00042037</td>
+</tr>
+<tr>
+<td>Dubberly, Shannon</td>
+<td>N00042242</td>
+</tr>
+<tr>
+<td>Elsasser, Kurt</td>
+<td>N00042644</td>
+</tr>
+<tr>
+<td>Koniz, Gary</td>
+<td>N00040213</td>
+</tr>
+<tr>
+<td>Emig, Zach</td>
+<td>N00040937</td>
+</tr>
+<tr>
+<td>Bush, Cori</td>
+<td>N00039373</td>
+</tr>
+<tr>
+<td>Engebretson, Margaret</td>
+<td>N00042733</td>
+</tr>
+<tr>
+<td>Moore, David</td>
+<td>N00043276</td>
+</tr>
+<tr>
+<td>Schiller, Jill</td>
+<td>N00042479</td>
+</tr>
+<tr>
+<td>Perkins, Jo Rae</td>
+<td>N00035512</td>
+</tr>
+<tr>
+<td>Caraway, Barbara Mallory</td>
+<td>N00033544</td>
+</tr>
+<tr>
+<td>Sam, Geraldine</td>
+<td>N00005912</td>
+</tr>
+<tr>
+<td>Fuller, Virginia</td>
+<td>N00042559</td>
+</tr>
+<tr>
+<td>Henry, James Francis Mr.</td>
+<td>N00041641</td>
+</tr>
+<tr>
+<td>Spano, Ross</td>
+<td>N00043319</td>
+</tr>
+<tr>
+<td>Sherman, Jayesun</td>
+<td>N00042154</td>
+</tr>
+<tr>
+<td>Aderholt, Robert B</td>
+<td>N00003028</td>
+</tr>
+<tr>
+<td>Freitas, Nick</td>
+<td>N00042367</td>
+</tr>
+<tr>
+<td>Korb, Abe</td>
+<td>N00043967</td>
+</tr>
+</tbody></table>
+
+      These screenshots shows how companies map to election years and candidates they
+      donated to, and companies to stock performance following an election. The last
+      one is candidate IDs to whether they won their election that year,
+      <br>
+        <img src='json.png' style="width:200px;height:300px;"></img>
+
+        <img src='json2.png' style="width:200px;height:300px;"></img>
+        <img src='json3.png' style="width:200px;height:300px;"></img>
+        <h2>How clean is the data?</h2>
+        <h3>Are the datapoints skewed?</h3>
+        We do believe there is skew in the data because of the presence of districts
+        where the majority of voters are of one party or another. In these races,
+        the winner is pretty much decided from the beginning, and only the winner
+        usually receives donation. We may control for this by including polling
+        data before the election takes place.
+         <a href='https://www.opensecrets.org/members-of-congress/elections?cid=N00006134&cycle=2020'>
+           Here is an example of a race where one candidate dominates both in
+           donations and polling.
+         </a>
+        <h3>How many datapoints are there?</h3>
+        For each company we analyzed (~750), there are 4 election cycles, and for
+        each election cycle, there can be anywhere from ~5 - 50 candidates that company donates to.
+        <h3>Are there missing values?</h3>
+        There are some rows where a company donated in one election cycle but
+        not in another, resulting in null values for the elections they did
+        not vote in.
+        <h3>Are there any duplicate values?</h3>
+        We do not expect any duplicates.
+        <h3>How is the data distributed? Are there any outliers?</h3>
+        There could definitely be some companies that performed disproportionately
+        poorly or well due to reasons unrelated to the election. One way we could
+        control for this would be to include a column that includes information
+        on a company’s industry, to compare it to company’s more similar to itself.
+        <h3>Did you throw any data away?</h3>
+        We threw away stock data for companies that were in one of the S&P 500
+        groups but were not shown to have donated to any candidates in these
+        election cycles because the data is not relevant to our question. We do
+        not believe this should affect or analysis.
+        <h2>Data Set Challenges</h2>
+        One area we may face challenges is that some entities will give donations
+         to candidates through the law firms that represent them (the company pays
+          the law firm who pays the candidate). On OpenSecrets, the law firm, and
+          not the company who paid them, is listed as the donor. This may require
+          us to additionally scrape the pages of the law firms instead of just using
+           the data from OpenSecrets to determine who the donor may have been.
+           We may also need to consider donations outside of political contributions
+            (donations to foundations, for example). However, overall we were
+            satisfied with how comprehensive our data set appears, and it seems
+            like it should be in a format that won’t be very difficult to analyze.
+        <h4>Name</h4>
+        We recognize that our team name has nothing to do with politics, but originally
+        we were going to do something sports related and didnt want to change.
+    </div>
+</div>
+
+</body>
+</html>
