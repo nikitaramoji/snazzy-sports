@@ -1,3 +1,33 @@
-<html>
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Snazzy Sports Data Deliverable 2.0</title>
+</head>
+
+<body>
+  <h1>Why the new data was needed</h1>
+  <p>We found that the initial data deliverable’s contents were not as descriptive as we would have liked; it had for each company all of the candidates they donated to, and whether those candidates had won, but it did not have the amount donated. This meant that we had no granularity related to the size of the donation, so we wouldn’t treat a $50 donation any differently from a $500,000 donation. We decided to redo our Open Secrets scraping, which unfortunately introduced a roadblock: Open Secrets had entirely changed their UI since we had initially done our scraping, so we had to rewrite our scraper entirely.
+We also gathered new data related to the Capital Asset Pricing Model (the reasons for needing this data are described in our proposed analysis below) for adding additional controls to our analysis. For each company, we now have its “beta coefficient” (a measure of a company’s stock’s volatility relative to the market in general) at the time of each of the four election cycles, the expected return of the market at each time, and the risk-free rate at the time. We discussed our ideas with Brown Department of Economics Professor Kenneth Chay, and he had mentioned similar studies that students of his had done that used the CAPM model as a control for market behavior, and we hope to emulate that methodology in our analysis.
+  To summarize, we have the following data:
+<ul>
+	<li>Stock prices for each of the S&P 500 companies during the week leading up to and following the 2012, 2014, 2016, and 2018 November elections.</li>
+	<li>Each political donation that the above companies made during those election cycles, including the candidate donated to and the amount of the donation.</li>
+  <li>The outcome of each election that had a donation from a S&P 500 company.</li>
+	<li>The expected stock price for each company according to the Capital Asset Pricing Model (along with the inputs that went into calculated this expected stock price).</li>
+    </ul>
+  </p>
   
+  <h1>What (good) properties the new data has and what analysis it will enable</h1>
+  <p>We have much more granularity now! We have more information related to each donation that should allow us to more accurately answer our questions (being able to us, for example, linear regression with at least one of the independent variables being continuous, rather than having to use only categorical variables). Additionally, rather than only looking at the surface level behavior of individual stocks (i.e. only whether the price went up or down in the given time period), because we have the CAPM data, we can look at each stock’s behavior in the context of the market as a whole and how volatile the stock tends to be. We hope this will add more weight to whatever results our analysis yields.</p>
   
+  <h1>What (bad) properties the new data has and why that required reworking our experimental design</h1>
+  <p>Unfortunately, our initial plan to conduct a two sample t-test was not possible because one of the samples (the set of donations to winning candidates) was around the third of the size of our other sample (the set of donations to losing candidates). Our thoughts on reworked analysis plan are below! We’d appreciate any insight on our current plans, particularly if you have any ideas of how we can analyze our samples separately (our plan below combines them by constructing another categorical variable for whether or not the candidate won). Current analysis plan:
+For analysis, because of the different sizes in samples preventing us from doing a two sample t-test, our current idea is to treat the donations as one distribution, and whether the candidate won or lost would be a variable within that distribution. Then, we’d be able to do a multi-variate regression with our independent variables being size of donation and whether the candidate won (and potentially the year of the donation, if we were to combine different years), and the dependent variable being the percent change in the donating company’s stock price. Then, we’d be able to look at the coefficients for each of the independent variables and conduct t-tests on those coefficients to try to answer our hypothesis. 
+Additionally, as a control for price change due to general market movement/expectations, we’ve scraped data from CRSP that will allow us to estimate the “expected” price of each stock at the time according to the Capital Asset Pricing Model, a very commonly-used financial model. We were thinking the expected change in price could be either another independent variable used in a regression, or the difference between the expected and actual changes could be a newly constructed dependent variable for a separate regression.</p>
+Another point of analysis that we hope to do is an Event Study, which from our understanding is commonly used to analyze causality for financial events, and Professor Chay’s related research used this methodology.
+    
+</body>
+</html>
