@@ -17,9 +17,9 @@ if __name__=='__main__':
         y = df['percentchangeinstockprice']
         return X, y
 
-	def classify(classifier):
-        classifier.fit(X_train, y_train)
-        return classifier.score(X_test, y_test)
+    def classify(classifier):
+       classifier.fit(X_train, y_train)
+       return classifier.score(X_test, y_test)
 
     X, y = load_file("data/consolidated-donation-data.csv")
 
@@ -27,9 +27,7 @@ if __name__=='__main__':
 	##################################################################################
 	# TODO: use train test split to split data into x_train, x_test, y_train, y_test #
 	#################################################################################
-    X_train, X_test, y_train, y_test = train_test_split(X, y, p)
-
-	X_train, X_test, y_train, y_test = train_test_split(
+    X_train, X_test, y_train, y_test = train_test_split(
 		X,
 		y,
 		test_size=0.2,
@@ -52,21 +50,21 @@ if __name__=='__main__':
     print("testing MSE is " + str(eval_measures.mse(y_test, results.predict(X_test))))
 
 	# TODO: create a KNeighborsClassifier that uses 3 neighbors to classify
-	knn = KNeighborsClassifier(n_neighbors=3)
-	knn_score = classify(knn)
+    knn = KNeighborsClassifier(n_neighbors=3)
+    knn_score = classify(knn)
     print("knn score: " + knn_score)
 
-	# TODO: create a DecisionTreeClassifier with random_state=0
-	decision_tree = DecisionTreeClassifier(random_state=0)
-	decision_tree_score = classify(decision_tree)
+    # TODO: create a DecisionTreeClassifier with random_state=0
+    decision_tree = DecisionTreeClassifier(random_state=0)
+    decision_tree_score = classify(decision_tree)
     print("decision tree score: " + decision_tree_score)
 
-	# TODO: create an SVC with random_state=0
-	svm = SVC(random_state=0)
-	svm_score = classify(svm)
+    # TODO: create an SVC with random_state=0
+    svm = SVC(random_state=0)
+    svm_score = classify(svm)
     print("svm score: " + svm_score)
 
-	# TODO: create an MLPClassifier with random_state=0
-	mlp = MLPClassifier(random_state=0)
-	mlp_score = classify(mlp)
+    # TODO: create an MLPClassifier with random_state=0
+    mlp = MLPClassifier(random_state=0)
+    mlp_score = classify(mlp)
     print("mlp score: " + mlp_score)
