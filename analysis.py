@@ -21,7 +21,7 @@ if __name__=='__main__':
     def load_file(file_path):
         df = pd.read_csv(file_path, delimiter=',')
         df = df.dropna()
-        X = df[['donationamount', 'candidatewonlost']]
+        X = df[['candidatewonlost']]
         y = df['percentchangeinstockprice']
         return X, y
 
