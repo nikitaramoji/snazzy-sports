@@ -18,24 +18,8 @@ if __name__=='__main__':
         return X, y
 
 	def classify(classifier):
-		"""
-		Trains a classifier and tests its performance.
-
-		NOTE: since this is an inner function within
-		classify_documents, this function will have access
-		to the variables within the scope of classify_documents,
-		including the train and test data, so we don't need to pass
-		them in as arguments to this function.
-
-		Args:
-			classifier: an sklearn classifier
-		Returns:
-			The score of the classifier on the test data.
-		"""
-		# TODO: fit the classifier on X_train and y_train
-		# and return the score on X_test and y_test
-		classifier.fit(X_train, y_train)
-		return classifier.score(X_test, y_test)
+        classifier.fit(X_train, y_train)
+        return classifier.score(X_test, y_test)
 
     X, y = load_file("data/consolidated-donation-data.csv")
 
