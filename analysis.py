@@ -57,8 +57,8 @@ if __name__=='__main__':
     print("training MSE is " + str(eval_measures.mse(y_train, results.predict(X_train))))
     print("testing MSE is " + str(eval_measures.mse(y_test, results.predict(X_test))))
 
-	label_encoder = LabelEncoder()
-	y = label_encoder.fit_transform(y)
+    label_encoder = LabelEncoder()
+    y = label_encoder.fit_transform(y)
 
 	# TODO: create a KNeighborsClassifier that uses 3 neighbors to classify
     knn = KNeighborsClassifier(n_neighbors=3)
