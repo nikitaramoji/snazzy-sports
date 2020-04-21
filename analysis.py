@@ -64,19 +64,19 @@ if __name__=='__main__':
 	# TODO: create a KNeighborsClassifier that uses 3 neighbors to classify
     knn = KNeighborsClassifier(n_neighbors=3)
     knn_score = classify(knn)
-    print("knn score: " + knn_score)
+    print("knn score: " + str(knn_score))
 
     # TODO: create a DecisionTreeClassifier with random_state=0
     decision_tree = DecisionTreeClassifier(random_state=0)
     decision_tree_score = classify(decision_tree)
-    print("decision tree score: " + decision_tree_score)
+    print("decision tree score: " + str(decision_tree_score))
 
     # TODO: create an SVC with random_state=0
     svm = SVC(random_state=0)
     svm_score = classify(svm)
-    print("svm score: " + svm_score)
+    print("svm score: " + str(svm_score))
 
     # TODO: create an MLPClassifier with random_state=0
     mlp = MLPClassifier(random_state=0)
     mlp_score = classify(mlp)
-    print("mlp score: " + mlp_score)
+    print("mlp score: " + str(mlp_score))
