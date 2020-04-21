@@ -7,6 +7,8 @@ import statsmodels.api as sm
 from statsmodels.tools import eval_measures
 from sklearn.model_selection import train_test_split
 
+from sklearn.preprocessing import LabelEncoder
+
 from sklearn.svm import SVC
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.neighbors import KNeighborsClassifier
@@ -54,6 +56,9 @@ if __name__=='__main__':
     print('R-squared: ', results.rsquared)
     print("training MSE is " + str(eval_measures.mse(y_train, results.predict(X_train))))
     print("testing MSE is " + str(eval_measures.mse(y_test, results.predict(X_test))))
+
+	label_encoder = LabelEncoder()
+	y = label_encoder.fit_transform(y)
 
 	# TODO: create a KNeighborsClassifier that uses 3 neighbors to classify
     knn = KNeighborsClassifier(n_neighbors=3)
