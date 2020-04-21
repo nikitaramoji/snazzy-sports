@@ -34,19 +34,13 @@ if __name__=='__main__':
     label_encoder = LabelEncoder()
     y = label_encoder.fit_transform(y)
 
-
-	##################################################################################
-	# TODO: use train test split to split data into x_train, x_test, y_train, y_test #
-	#################################################################################
     X_train, X_test, y_train, y_test = train_test_split(
 		X,
 		y,
 		test_size=0.2,
 		random_state=0
 	)
-	##################################################################################
-	# TODO: Use StatsModels to create the Linear Model and Output R-squared
-	#################################################################################
+
     X_train = sm.add_constant(X_train)
     X_test = sm.add_constant(X_test)
 
@@ -54,29 +48,23 @@ if __name__=='__main__':
     results = model.fit()
 
 	# Prints out the Report
-	# TODO: print R-squared, test MSE & train MSE
     print(results.summary())
     print('R-squared: ', results.rsquared)
     print("training MSE is " + str(eval_measures.mse(y_train, results.predict(X_train))))
     print("testing MSE is " + str(eval_measures.mse(y_test, results.predict(X_test))))
 
-
-	# TODO: create a KNeighborsClassifier that uses 3 neighbors to classify
     knn = KNeighborsClassifier(n_neighbors=3)
     knn_score = classify(knn)
     print("knn score: " + str(knn_score))
 
-    # TODO: create a DecisionTreeClassifier with random_state=0
     decision_tree = DecisionTreeClassifier(random_state=0)
     decision_tree_score = classify(decision_tree)
     print("decision tree score: " + str(decision_tree_score))
 
-    # TODO: create an SVC with random_state=0
     svm = SVC(random_state=0)
     svm_score = classify(svm)
     print("svm score: " + str(svm_score))
 
-    # TODO: create an MLPClassifier with random_state=0
     mlp = MLPClassifier(random_state=0)
     mlp_score = classify(mlp)
     print("mlp score: " + str(mlp_score))
