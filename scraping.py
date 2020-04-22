@@ -42,8 +42,8 @@ for company in companies:
                     if demographic_info[0] == 'Candidate':
                         name = indiv_info[0].text
                         total_amount = float(indiv_info[1].text[1:].replace(',','').strip('$'))
-                        party = demographic_info[0][1]
-                        election_type = demographic_info[0][3:-1]
+                        party = demographic_info[1][1]
+                        election_type = demographic_info[1][3:-1]
                         if(len(name) > 1):
                             data[company_name][year].append((name, total_amount, party, election_type))
             except AttributeError as e:
