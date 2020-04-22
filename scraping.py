@@ -1,4 +1,3 @@
-from crpapi import CRP
 from bs4 import BeautifulSoup
 
 import requests
@@ -6,9 +5,7 @@ import json
 import csv
 import random
 
-API_KEY = "877dd5bad34c2b28163e3a5831735b35"
 
-crp = CRP(API_KEY)
 data = {}
 with open('/Users/sbarshay/Downloads/Value Errors - Sheet1.csv', newline='') as f:
     reader = csv.reader(f)
@@ -41,11 +38,14 @@ for company in companies:
                 full_candidate_info_table = soup.find(id="top_recipients-inner-container").find("table").find("tbody").find_all("tr")
                 for candidate_info in full_candidate_info_table:
                     indiv_info = candidate_info.find_all("td")
-                    if indiv_info[4].text.split(" ")[0] == 'Candidate':
+                    demographic_info = indiv_info[4].text.split(" ")
+                    if demographic_info[0] == 'Candidate':
                         name = indiv_info[0].text
                         total_amount = float(indiv_info[1].text[1:].replace(',','').strip('$'))
+                        party = demographic_info[0][1]
+                        election_type = demographic_info[0][3:-1]
                         if(len(name) > 1):
-                            data[company_name][year].append((name, total_amount))
+                            data[company_name][year].append((name, total_amount, party, election_type))
             except AttributeError as e:
                 print(e)
                 print(company_name + " could not be found (AttributeError)" + year)
