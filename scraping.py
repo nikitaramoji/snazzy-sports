@@ -7,7 +7,7 @@ import random
 
 
 data = {}
-with open('/Users/sbarshay/Downloads/Value Errors - Sheet1.csv', newline='') as f:
+with open('Value-Errors-Sheet1.csv', newline='') as f:
     reader = csv.reader(f)
     companies = list(reader)
 missing_companies = []
