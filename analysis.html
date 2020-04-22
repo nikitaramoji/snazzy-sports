@@ -4,35 +4,54 @@
 <head>
   <meta charset="utf-8">
 
-  <title>Snazzy Sports Data Deliverable 2.0</title>
+  <title>Snazzy Sports Data Deliverable 2.0/Analysis</title>
 </head>
 
 <body>
   <h1>Analysis Deliverable</h1>
 
   <h2>Full results + Visualization</h2>
-  <p>Todo</p>
+	
 
   <h2>Defined Hypothesis/Prediction Task</h2>
-  <p>Todo</p>
+  <p>Our original question was to gauge the extent to which stock performance is tied to the poltical performance of 
+	  democratically elected officials receiving donations from corporate entities. Specifically, our hypothesis was that
+	there would be a significant difference in performance between stocks of companies that had made donations to 
+	winning candidates, and the performance of stocks of companies that had invested more money in candidates that had lost.
+	To do this, we decided to do a multivariate regression on stock performance using donation data and political 
+	performance as independent varialbes. If the coefficient on the variables for the size of the political contribution
+	and the performance of a candidate in the regression against stock performance were significant, then we could reject
+	the null hypothesis that there was no relationship between the performance of a political candidate a company
+	had donated to and their stock performance the next day.</p>
 
   <h2>Why did we use these statistic tests and ML algorithms</h2>
-  <p>Todo</p>
+  <p>Because we were doing a hypothesis test of the influence of one variable on another, 
+	  as opposed to a classification problem, the statistical tool 
+	  we decided to use was a multivariate regression. We decided this tool was ideal for our situation
+	because of its ability to easily control for confounding variables as new data is brought in, as well as to easily
+	evaluate the statistical significance of the varialbes whose influence we were measuring. We had originally planned to
+	use a two sample t-test, but significant differences in the sizes of our samples prevented us from being able to
+	do meaningful analysis with this method.</p>
 
   <h2>Interpretation of Result</h2>
-  <p>Todo</p>
+  <p>The result of our linear regression showed that the variable related to whether a candidate won or lost an election 
+	was statistically significant at the 95% level in predicting the chage in stock price of a donor company the next day.</p>
 
   <h2>Visualization Explanation</h2>
-  <p>Todo</p>
+  <p>Our visualization is a histogram of buckets of ranges of stock performance along the x-axis plotted against the percentage of 
+	companies of either class (those that had donated to winners and those that donated to losers) that performed 
+	in that range. Note that we had to use percentages rather than raw counts because of the sizable difference in the 
+	number of winning candidates and the number of losing candidates. From this, it is easy to compare the distributions
+	of performance of companies that donated to winning candidates and those that donated to losing candidates. </p>
 
   <h2>Confounding trends for stats test</h2>
-  <p>Todo</p>
-
-  <h2>Why these ml algorithms + discuss sensitive/protected attributes</h2>
-  <p>Todo</p>
+  <p>There are a number of companies that donate to both candidates in an election, it may be useful to remove them from
+	the analysis (if there would be any data left).</p>
 
   <h2>Discussion of visualization/explaining your results on a poster and a discussion of future directions.</h2>
-  <p>Todo</p>
+  <p>Going forward, we would like to possibly extend our analysis to elections taking place in other years,
+	  so that we can determine if the results we found in 2016 generalize to other elections. We would also like 
+	to possibly further extend our analysis to other areas regarding demographic information tbh to be continued</p>
 
   <h1>Data Deliverable 2.0</h1>
 	<h2><a href="https://drive.google.com/open?id=19IvgJbc6rvlLXPyNw_k4Bnc7bLjaemhV">Access our new data here!</a></h2><br>
