@@ -4,16 +4,17 @@ from bs4 import BeautifulSoup
 import requests
 import json
 import csv
+import random
 
-API_KEY = "21c4b2ad2e76b2e7d6524a9bccbf5119"
+API_KEY = "877dd5bad34c2b28163e3a5831735b35"
 
 crp = CRP(API_KEY)
 data = {}
-with open('/Users/danielkotroco/github/snazzy-sports/Value-Errors-Sheet1.csv', newline='') as f:
+with open('/Users/sbarshay/Downloads/Value Errors - Sheet1.csv', newline='') as f:
     reader = csv.reader(f)
     companies = list(reader)
 missing_companies = []
-cycle_years = ['2012','2014', '2016', '2018']
+cycle_years = ['2012', '2014', '2016''2018']
 type_error_companies = []
 
 years_to_name_to_id = {}
@@ -22,8 +23,10 @@ for year in cycle_years:
     names_to_id = json.load(f)
     years_to_name_to_id[year] = names_to_id
     f.close()
-
+i = 1
 for company in companies:
+    print(i)
+    i += 1
     try:
         company_name = company[0]
         org_id = company[1]
@@ -31,16 +34,18 @@ for company in companies:
         for year in cycle_years:
             try:
                 data[company_name][year] = []
-                cycle_url = "https://www.opensecrets.org/orgs/recips.php?cycle=" + year + "&id=" + org_id
+                cycle_url = "https://www.opensecrets.org/orgs/recipients?toprecipscycle=" + year + "&candscycle=2020&id=" + org_id + "&t3-Type=Cand"
                 response = requests.get(cycle_url)
                 response.raise_for_status()
                 soup = BeautifulSoup(response.content, 'html.parser')
-                full_candidate_info_table = soup.find(id="recips").find("tbody").find_all("tr")
+                full_candidate_info_table = soup.find(id="top_recipients-inner-container").find("table").find("tbody").find_all("tr")
                 for candidate_info in full_candidate_info_table:
-                        name = candidate_info.find_all("td")[0].text.split(" ")
-                        # print(year, name)
-                        # cid = years_to_name_to_id[year][name[0] + ' ' + name[1]]
-                        data[company_name][year].append(str(name[1] + " " + name[0][:-1]))
+                    indiv_info = candidate_info.find_all("td")
+                    if indiv_info[4].text.split(" ")[0] == 'Candidate':
+                        name = indiv_info[0].text
+                        total_amount = float(indiv_info[1].text[1:].replace(',','').strip('$'))
+                        if(len(name) > 1):
+                            data[company_name][year].append((name, total_amount))
             except AttributeError as e:
                 print(e)
                 print(company_name + " could not be found (AttributeError)" + year)
@@ -59,6 +64,6 @@ print(missing_companies)
 print(len(missing_companies))
 print(type_error_companies)
 print(len(type_error_companies))
-f = open("company_opensecrets_dataFINAL","w")
+f = open("data5","w")
 f.write(json_data)
 f.close()
