@@ -31,8 +31,8 @@ if __name__=='__main__':
 
     X, y = load_file("data/consolidated-donation-data.csv")
 
-    label_encoder = LabelEncoder()
-    y = label_encoder.fit_transform(y)
+    # label_encoder = LabelEncoder()
+    # y_label = label_encoder.fit_transform(y)
 
     X_train, X_test, y_train, y_test = train_test_split(
 		X,
@@ -47,24 +47,24 @@ if __name__=='__main__':
     model = sm.OLS(y_train, X_train)
     results = model.fit()
 
-	# Prints out the Report
-    print(results.summary())
-    print('R-squared: ', results.rsquared)
-    print("training MSE is " + str(eval_measures.mse(y_train, results.predict(X_train))))
-    print("testing MSE is " + str(eval_measures.mse(y_test, results.predict(X_test))))
-
-    knn = KNeighborsClassifier(n_neighbors=3)
-    knn_score = classify(knn)
-    print("knn score: " + str(knn_score))
-
-    decision_tree = DecisionTreeClassifier(random_state=0)
-    decision_tree_score = classify(decision_tree)
-    print("decision tree score: " + str(decision_tree_score))
-
-    svm = SVC(random_state=0)
-    svm_score = classify(svm)
-    print("svm score: " + str(svm_score))
-
-    mlp = MLPClassifier(random_state=0)
-    mlp_score = classify(mlp)
-    print("mlp score: " + str(mlp_score))
+	# # Prints out the Report
+    # print(results.summary())
+    # print('R-squared: ', results.rsquared)
+    # print("training MSE is " + str(eval_measures.mse(y_train, results.predict(X_train))))
+    # print("testing MSE is " + str(eval_measures.mse(y_test, results.predict(X_test))))
+    #
+    # knn = KNeighborsClassifier(n_neighbors=3)
+    # knn_score = classify(knn)
+    # print("knn score: " + str(knn_score))
+    #
+    # decision_tree = DecisionTreeClassifier(random_state=0)
+    # decision_tree_score = classify(decision_tree)
+    # print("decision tree score: " + str(decision_tree_score))
+    #
+    # svm = SVC(random_state=0)
+    # svm_score = classify(svm)
+    # print("svm score: " + str(svm_score))
+    #
+    # mlp = MLPClassifier(random_state=0)
+    # mlp_score = classify(mlp)
+    # print("mlp score: " + str(mlp_score))
