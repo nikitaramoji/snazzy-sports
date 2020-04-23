@@ -1,8 +1,8 @@
-company, candidate_name
-ABT,"Clinton, Hillary"
-ABT,"Kirk, Mark"
-ABT,"Dold, Bob"
-ABT,"Ryan, Paul"
-AEP,"Clinton, Hillary"
-AEP,"Hoyer, Steny H"
-AEP,"Upton, Fred"
+company, candidate_name, donationamount
+ABT,"Clinton, Hillary",36124
+ABT,"Kirk, Mark",25350
+ABT,"Dold, Bob",23850
+ABT,"Ryan, Paul",23850
+AEP,"Clinton, Hillary",13342
+AEP,"Hoyer, Steny H",10000
+AEP,"Upton, Fred",10000
