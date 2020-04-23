@@ -1,8 +1,8 @@
-candidate_name,candidatewinlost
-"Clinton, Hillary",0
-"Kirk, Mark",0
-"Dold, Bob",0
-"Ryan, Paul",1
-"Clinton, Hillary",0
-"Hoyer, Steny H",1
-"Upton, Fred",1
+candidate_name,candidatewinlost,label
+"Clinton, Hillary",0,"Clinton, Hillary"
+"Kirk, Mark",0,"Kirk, Mark"
+"Dold, Bob",0,"Dold, Bob"
+"Ryan, Paul",1,"Ryan, Paul"
+"Clinton, Hillary",0,"Clinton, Hillary"
+"Hoyer, Steny H",1,"Hoyer, Steny H"
+"Upton, Fred",1,"Upton, Fred"

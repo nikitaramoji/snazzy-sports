@@ -1,3 +1,3 @@
-companystockticker,percentchangeinstockprice
-ABT,1.135790005
-AEP,-2.607727779
+companystockticker,percentchangeinstockprice,label
+ABT,1.135790005, ABT
+AEP,-2.607727779, AEP
