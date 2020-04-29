@@ -1,0 +1,21 @@
+Hi! If you're reading this, you'd like to use sqlite to recreate the multivar.csv file I made to include another column
+or something. You're in for a treat. These are the steps I followed to create the csv files in sql for the regression I ran.
+
+Step 1: run the command 'sqlite3' in your snazzy-sports directory.
+
+Step 2: run the command '.mode csv'
+
+Step 3: run the command '.import <csv file path you'd like to use goes here> <table name>'
+  For this step, I used the csv file I formatted from the data Justin and Seth put together (data/consolidated_data2.csv),
+  but you may want to use data/multivar.csv or something, whatever works.
+  
+You'll now have a table you can run queries on to create a new csv file using sql. Isn't that neat. I would play around 
+with small sets of data (limit 10 or something) to make sure the query is absolutely right before writing to file. 
+N.B.: the sqlite code will add weird quotation marks to things so you'll need to remove them. I've also included a python script
+regression_data_formatting.py to do this.
+
+Step 5: when you're ready to write the results of your sql query to file, use this command
+'.output <path to output csv file>'
+
+Step 6:
+Your file should now be written, if you'd like to change the output to stdout, run '.output stdout'
