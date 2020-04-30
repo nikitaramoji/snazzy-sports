@@ -29,7 +29,7 @@ if __name__=='__main__':
         #stock_price_change,year,opening_price,closing_price,party,chamber
         df = pd.read_csv(file_path, delimiter=',')
         df = df.dropna()
-        X = df[['donation_amount', 'candidate_won_lost', 'is_democrat', 'is_senate']]
+        X = df[['directed_dollars', 'beta']]
         y = df['stock_price_change']
         return X, y
 
@@ -39,7 +39,7 @@ if __name__=='__main__':
 
 
 
-    X, y = load_file("multivar_2012.csv")
+    X, y = load_file("directed_dollars2.csv")
 
     #label_encoder = LabelEncoder()
     #y = label_encoder.fit_transform(y)
@@ -61,3 +61,61 @@ if __name__=='__main__':
 
 	# Prints out the Report
     print(results.summary())
+
+
+    #select stock_ticker, donation_amount, candidate_won_lost, stock_price_change,
+    #is_democrat, is_senate,is_president, betav, candidate_last, candidate_first
+    #from multi join capm on stock_ticker=TICKER where multi.year=2016;
+
+
+
+
+
+
+
+
+    # select
+    #     stock_ticker,
+    #     stock_price_change,
+    #     sum(directed_dollars * is_president) as directed_dollars_to_pres,
+    #     sum(directed_dollars * is_senate) as directed_dollars_to_senate,
+    #     sum(directed_dollars) as directed_dollars,
+    #     sum(donation_amount) as total_money_donated,
+    #     sum(losing_dollars) as lost_money,
+    #     sum(winning_dollars) as money_won,
+    #     betav
+    # from
+    # (select
+    #     stock_ticker,
+    #     donation_amount,
+    #     candidate_won_lost,
+    #     stock_price_change,
+    #     is_democrat,
+    #     is_senate,
+    #     is_president,
+    #     betav,
+    #     case
+    #         when candidate_won_lost=0
+    #         then -1*donation_amount
+    #         else donation_amount end as directed_dollars,
+    #     donation_amount * candidate_won_lost as winning_dollars,
+    #     is_democrat * donation_amount as democrat_dollars,
+    #     case
+    #         when is_democrat=0
+    #         then donation_amount
+    #         else 0 end as republican_dollars,
+    #     is_democrat * candidate_won_lost as democrat_and_won,
+    #     case
+    #         when is_democrat=0 and candidate_won_lost=1
+    #         then 1 else 0 end as republican_and_won,
+    #     case
+    #         when candidate_won_lost=1
+    #         then donation_amount
+    #         else 0 end as winning_dollars,
+    #     case
+    #         when candidate_won_lost=0
+    #         then donation_amount else 0 end as losing_dollars,
+    #     candidate_last,
+    #     candidate_first
+    #     from multi join capm on stock_ticker=TICKER where multi.year=2016)
+    # group by stock_ticker;
