@@ -1,0 +1,626 @@
+TICKER,Industry Code,Industry
+ORCL,7372,Prepackaged Software
+MSFT,7370,Help Supply Services
+TROW,6211,"Security Brokers, Dealers, and Flotation Companies"
+HON,5099,"Durable Goods, Not Elsewhere Classified"
+LLTC,3670,"Communications Equipment, Not Elsewhere Classified"
+ADM,2046,Wet Corn Milling
+FISV,7370,Help Supply Services
+CERN,7373,Computer Integrated Systems Design
+KO,2086,Bottled and Canned Soft Drinks and Carbonated Waters
+CDNS,7372,Prepackaged Software
+ED,4911,Electric Services
+CELG,2890,"Pesticides and Agricultural Chemicals, Not Elsewhere Classified"
+XRAY,3840,"Measuring and Controlling Devices, Not Elsewhere Classified"
+FAST,5200,"Nondurable Goods, Not Elsewhere Classified"
+DTE,4911,Electric Services
+DD,2879,"Pesticides and Agricultural Chemicals, Not Elsewhere Classified"
+ETN,3629,"Electrical Industrial Apparatus, Not Elsewhere Classified"
+SIVB,6020,"Central Reserve Depository Institutions, Not Elsewhere Classified"
+XOM,2911,Petroleum Refining
+MGM,7999,"Amusement and Recreation Services, Not Elsewhere Classified"
+MXIM,3674,Semiconductors and Related Devices
+WM,4953,Refuse Systems
+GD,3721,Aircraft
+GE,3511,"Steam, Gas, and Hydraulic Turbines, and Turbine Generator Set Units"
+LH,8071,Medical Laboratories
+PBCT,6036,"Savings Institutions, Not Federally Chartered"
+SIG,5944,Jewelry Stores
+CHTR,4841,Cable and Other Pay Television Services
+LYB,5169,"Chemicals and Allied Products, Not Elsewhere Classified"
+GM,3711,Motor Vehicles and Passenger Car Bodies
+IR,3822,Automatic Controls for Regulating Residential and Commercial Environments and Appliances
+FRC,6022,State Commercial Banks
+FLT,7389,"Business Services, Not Elsewhere Classified"
+IBM,7379,"Computer Related Services, Not Elsewhere Classified"
+NLSN,8733,Noncommercial Research Organizations
+KMI,4923,Natural Gas Transmission and Distribution
+ITT,3561,Pumps and Pumping Equipment
+HCA,8062,General Medical and Surgical Hospitals
+HII,5088,"Transportation Equipment and Supplies, Except Motor Vehicles"
+KSU,4011,"Railroads, Line-Haul Operating"
+MPC,2911,Petroleum Refining
+FBHS,2531,Public Building and Related Furniture
+XYL,3561,Pumps and Pumping Equipment
+APTV,3714,Motor Vehicle Parts and Accessories
+WPX,1321,Natural Gas Liquids
+CPRI,5137,"Women's, Children's, and Infants' Clothing and Accessories"
+TRIP,9999,Nonclassifiable Establishments
+PSX,2911,Petroleum Refining
+FB,9999,Nonclassifiable Establishments
+NOW,7379,"Computer Related Services, Not Elsewhere Classified"
+SUN,5411,Grocery Stores
+PNR,3559,"Special Industry Machinery, Not Elsewhere Classified"
+FANG,9999,Nonclassifiable Establishments
+PCG,4931,Electric and Other Services Combined
+ABBV,2834,Pharmaceutical Preparations
+NCLH,4481,"Deep Sea Transportation of Passengers, Except by Ferry"
+ZTS,2834,Pharmaceutical Preparations
+PEP,2086,Bottled and Canned Soft Drinks and Carbonated Waters
+MO,2111,Cigarettes
+IQV,8731,Commercial Physical and Biological Research
+COP,1382,Oil and Gas Field Exploration Services
+PVH,2321,"Men's and Boys' Shirts, Except Work Shirts"
+CDW,9999,Nonclassifiable Establishments
+NWSA,9999,Nonclassifiable Establishments
+NWS,9999,Nonclassifiable Establishments
+COTY,2844,"Perfumes, Cosmetics, and Other Toilet Preparations"
+AMGN,2830,"Manmade Organic Fibers, Except Cellulosic"
+MNK,2834,Pharmaceutical Preparations
+S,4812,Radiotelephone Communications
+MMI,6531,Real Estate Agents and Managers
+SLB,1389,"Oil and Gas Field Services, Not Elsewhere Classified"
+TWTR,7375,Information Retrieval Services
+ALLE,6799,"Investors, Not Elsewhere Classified"
+HLT,7011,Hotels and Motels
+CVX,1311,Crude Petroleum and Natural Gas
+GOOG,7375,Information Retrieval Services
+PAYC,7372,Prepackaged Software
+AAPL,3571,Electronic Computers
+NAVI,9999,Nonclassifiable Establishments
+AMAT,3550,"Metalworking Machinery, Not Elsewhere Classified"
+INFO,8741,Management Services
+ANET,3577,"Computer Peripheral Equipment, Not Elsewhere Classified"
+SYF,7389,"Business Services, Not Elsewhere Classified"
+CFG,6712,Offices of Bank Holding Companies
+KEYS,3825,Instruments for Measuring and Testing of Electricity and Electrical Signals
+MRO,1382,Oil and Gas Field Exploration Services
+VMC,1422,Crushed and Broken Limestone
+IGT,7999,"Amusement and Recreation Services, Not Elsewhere Classified"
+LIFE,9999,Nonclassifiable Establishments
+KHC,9999,Nonclassifiable Establishments
+ALPN,9999,Nonclassifiable Establishments
+FL,5661,Shoe Stores
+PYPL,9999,Nonclassifiable Establishments
+TXN,3674,Semiconductors and Related Devices
+HPE,7374,Computer Processing and Data Preparation and Processing Services
+EIX,4911,Electric Services
+CSRA,7374,Computer Processing and Data Preparation and Processing Services
+UA,2329,"Men's and Boys' Clothing, Not Elsewhere Classified"
+CCEP,2086,Bottled and Canned Soft Drinks and Carbonated Waters
+GT,3011,Tires and Inner Tubes
+HSY,2066,Chocolate and Cocoa Products
+KR,5411,Grocery Stores
+CVS,5912,Drug Stores and Proprietary Stores
+GIS,2041,Flour and Other Grain Mill Products
+SPGI,6289,"Services Allied With the Exchange of Securities or Commodities, Not Elsewhere Classified"
+WRB,6331,"Fire, Marine, and Casualty Insurance"
+KMB,2844,"Perfumes, Cosmetics, and Other Toilet Preparations"
+UTX,3724,Aircraft Engines and Engine Parts
+PG,2841,"Soap and Other Detergents, Except Specialty Cleaners"
+JCP,5311,Department Stores
+SO,4911,Electric Services
+CAT,3531,Construction Machinery and Equipment
+CL,2844,"Perfumes, Cosmetics, and Other Toilet Preparations"
+FMC,2899,"Chemicals and Chemical Preparations, Not Elsewhere Classified"
+DE,3523,Farm Machinery and Equipment
+BMY,2834,Pharmaceutical Preparations
+WBA,5912,Drug Stores and Proprietary Stores
+BA,3721,Aircraft
+JEF,5099,"Durable Goods, Not Elsewhere Classified"
+ABT,5047,"Medical, Dental, and Hospital Equipment and Supplies"
+DOW,2821,"Plastics Materials, Synthetic Resins, and Nonvulcanizable Elastomers"
+AAL,4512,"Air Transportation, Scheduled"
+LMT,3761,Guided Missiles and Space Vehicles
+WRK,5013,Motor Vehicle Supplies and New Parts
+NEM,1041,Gold Ores
+CAH,8099,"Health and Allied Services, Not Elsewhere Classified"
+IP,2621,Paper Mills
+EXC,4911,Electric Services
+CNP,4911,Electric Services
+PFE,2834,Pharmaceutical Preparations
+EMR,3543,Industrial Patterns
+JNJ,2834,Pharmaceutical Preparations
+GLW,3357,Drawing and Insulating of Nonferrous Wire
+PPG,2851,"Paints, Varnishes, Lacquers, Enamels, and Allied Products"
+PPL,4911,Electric Services
+MMM,5099,"Durable Goods, Not Elsewhere Classified"
+MRK,2834,Pharmaceutical Preparations
+MSI,3679,"Electronic Components, Not Elsewhere Classified"
+FE,4911,Electric Services
+SCG,4911,Electric Services
+CMS,4911,Electric Services
+CHD,2841,"Soap and Other Detergents, Except Specialty Cleaners"
+CINF,6330,Hospital and Medical Service Plans
+WEC,4911,Electric Services
+TXT,3999,"Manufacturing Industries, Not Elsewhere Classified"
+CTAS,2320,"Men's and Boys' Suits, Coats, and Overcoats"
+PEG,4931,Electric and Other Services Combined
+HAL,1389,"Oil and Gas Field Services, Not Elsewhere Classified"
+FTR,4931,Electric and Other Services Combined
+XEL,4911,Electric Services
+ETR,4911,Electric Services
+EVRG,4931,Electric and Other Services Combined
+AEP,4911,Electric Services
+NEE,4911,Electric Services
+EQT,1311,Crude Petroleum and Natural Gas
+PBI,3579,"Office Machines, Not Elsewhere Classified"
+ARNC,3334,Primary Production of Aluminum
+NOC,3812,"Search, Detection, Navigation, Guidance, Aeronautical, and Nautical Systems and Instruments"
+RTN,3812,"Search, Detection, Navigation, Guidance, Aeronautical, and Nautical Systems and Instruments"
+AEE,4911,Electric Services
+CMA,6021,National Commercial Banks
+OKE,4923,Natural Gas Transmission and Distribution
+CPB,2038,"Frozen Specialties, Not Elsewhere Classified"
+WHR,3639,"Household Appliances, Not Elsewhere Classified"
+LHX,3812,"Search, Detection, Navigation, Guidance, Aeronautical, and Nautical Systems and Instruments"
+CA,7372,Prepackaged Software
+F,3711,Motor Vehicles and Passenger Car Bodies
+DOV,3999,"Manufacturing Industries, Not Elsewhere Classified"
+DIS,7313,"Radio, Television, and Publishers' Advertising Representatives"
+BH,5812,Eating Places
+L,6331,"Fire, Marine, and Casualty Insurance"
+K,2043,Cereal Breakfast Foods
+VAR,3845,Electromedical and Electrotherapeutic Apparatus
+CLF,1081,Metal Mining Services
+R,7513,"Truck Rental and Leasing, Without Drivers"
+HPQ,3571,Electronic Computers
+BAX,3841,Surgical and Medical Instruments and Apparatus
+DUK,4911,Electric Services
+XRX,6719,"Offices of Holding Companies, Not Elsewhere Classified"
+PNW,4911,Electric Services
+APD,2813,Industrial Gases
+MUR,1382,Oil and Gas Field Exploration Services
+VNO,6798,Real Estate Investment Trusts
+HES,1311,Crude Petroleum and Natural Gas
+ALK,4512,"Air Transportation, Scheduled"
+NBR,1381,Drilling Oil and Gas Wells
+OMC,7311,Advertising Agencies
+FLS,3561,Pumps and Pumping Equipment
+HP,1381,Drilling Oil and Gas Wells
+HFC,2911,Petroleum Refining
+HRL,2011,Meat Packing Plants
+ATO,4924,Natural Gas Distribution
+MAS,2439,"Structural Wood Members, Not Elsewhere Classified"
+FITB,6711,Cemetery Subdividers and Developers
+NUE,3312,"Steel Works, Blast Furnaces (Including Coke Ovens), and Rolling Mills"
+OXY,1311,Crude Petroleum and Natural Gas
+RF,6021,National Commercial Banks
+MTB,6021,National Commercial Banks
+ROL,7342,Disinfecting and Pest Control Services
+FHN,6021,National Commercial Banks
+SHW,2851,"Paints, Varnishes, Lacquers, Enamels, and Allied Products"
+TSO,2911,Petroleum Refining
+BEN,6722,"Management Investment Offices, Open-End"
+AJG,6411,"Insurance Agents, Brokers, and Service"
+WMB,4922,Natural Gas Transmission
+RRD,2754,"Commercial Printing, Gravure"
+WFC,6021,National Commercial Banks
+NI,4939,"Combination Utilities, Not Elsewhere Classified"
+APA,1321,Natural Gas Liquids
+MAT,3942,Dolls and Stuffed Toys
+BDX,3841,Surgical and Medical Instruments and Apparatus
+WY,831,Forest Nurseries and Gathering of Forest Products
+DXC,7376,Computer Facilities Management Services
+IFF,2869,"Industrial Organic Chemicals, Not Elsewhere Classified"
+AVP,2844,"Perfumes, Cosmetics, and Other Toilet Preparations"
+TJX,5331,Variety Stores
+CMI,3519,"Internal Combustion Engines, Not Elsewhere Classified"
+PH,3543,Industrial Patterns
+PKI,3845,Electromedical and Electrotherapeutic Apparatus
+SJM,2099,"Food Preparations, Not Elsewhere Classified"
+JBHT,4213,"Trucking, Except Local"
+HBAN,6020,"Central Reserve Depository Institutions, Not Elsewhere Classified"
+ATI,3317,Steel Pipe and Tubes
+SWK,3429,"Hardware, Not Elsewhere Classified"
+MCD,5812,Eating Places
+VFC,2325,Men's and Boys' Separate Trousers and Slacks
+BMS,2671,"Packaging Paper and Plastics Film, Coated and Laminated"
+ES,4911,Electric Services
+TFX,3841,Surgical and Medical Instruments and Apparatus
+AVY,3089,"Plastics Products, Not Elsewhere Classified"
+ADP,7374,Computer Processing and Data Preparation and Processing Services
+SVU,5411,Grocery Stores
+JCI,7382,Security Systems Services
+RDC,1381,Drilling Oil and Gas Wells
+MMC,6411,"Insurance Agents, Brokers, and Service"
+SWKS,3674,Semiconductors and Related Devices
+ITG,6211,"Security Brokers, Dealers, and Flotation Companies"
+CLX,2842,"Specialty Cleaning, Polishing, and Sanitation Preparations"
+GPC,5013,Motor Vehicle Supplies and New Parts
+HST,6798,Real Estate Investment Trusts
+BCR,3841,Surgical and Medical Instruments and Apparatus
+KLAC,3827,Optical Instruments and Lenses
+JPM,6021,National Commercial Banks
+TGNA,7929,"Bands, Orchestras, Actors, and Other Entertainers and Entertainment Groups"
+LRCX,3559,"Special Industry Machinery, Not Elsewhere Classified"
+MCO,7323,Credit Reporting Services
+HUM,6321,Accident and Health Insurance
+UNP,4011,"Railroads, Line-Haul Operating"
+LNC,6311,Life Insurance
+TGT,5331,Variety Stores
+HRB,7291,Tax Return Preparation Services
+BK,6022,State Commercial Banks
+DHR,5047,"Medical, Dental, and Hospital Equipment and Supplies"
+RRC,1382,Oil and Gas Field Exploration Services
+LEE,2711,"Newspapers: Publishing, or Publishing and Printing"
+LLY,2834,Pharmaceutical Preparations
+TER,3825,Instruments for Measuring and Testing of Electricity and Electrical Signals
+PIR,5719,Miscellaneous home furnishings Stores
+SYY,5149,"Groceries and Related Products, Not Elsewhere Classified"
+MKC,2099,"Food Preparations, Not Elsewhere Classified"
+RHI,7363,Help Supply Services
+J,8711,Engineering Services
+THC,8062,General Medical and Surgical Hospitals
+EFX,7323,Credit Reporting Services
+GWW,5961,Catalog and Mail-Order Houses
+LEN,1531,Operative Builders
+HAS,3944,"Games, Toys, and Children's Vehicles, Except Dolls and Bicycles"
+IPG,7311,Advertising Agencies
+GHC,2711,"Newspapers: Publishing, or Publishing and Printing"
+MU,3674,Semiconductors and Related Devices
+PHM,1531,Operative Builders
+WMT,5331,Variety Stores
+CAG,2099,"Food Preparations, Not Elsewhere Classified"
+ITW,3569,"General Industrial Machinery and Equipment, Not Elsewhere"
+BLL,3411,Metal Cans
+NKE,3021,Rubber and Plastics Footwear
+JWN,5311,Department Stores
+AFL,6321,Accident and Health Insurance
+NTRS,6020,"Central Reserve Depository Institutions, Not Elsewhere Classified"
+FRT,6798,Real Estate Investment Trusts
+LUV,4512,"Air Transportation, Scheduled"
+LNT,4931,Electric and Other Services Combined
+GPS,5651,Family Clothing Stores
+AXP,6029,"Commercial Banks, Not Elsewhere Classified"
+TAP,2082,Malt Beverages
+UDR,6798,Real Estate Investment Trusts
+INTC,3679,"Electronic Components, Not Elsewhere Classified"
+BAC,6021,National Commercial Banks
+TRV,6331,"Fire, Marine, and Casualty Insurance"
+MDT,3845,Electromedical and Electrotherapeutic Apparatus
+SNA,3546,Power-Driven Handtools
+PNC,6021,National Commercial Banks
+PCAR,3711,Motor Vehicles and Passenger Car Bodies
+CTL,4813,"Telephone Communications, Except Radiotelephone"
+FDX,4513,Air Courier Services
+ADI,3674,Semiconductors and Related Devices
+LEG,5099,"Durable Goods, Not Elsewhere Classified"
+NWL,3089,"Plastics Products, Not Elsewhere Classified"
+AMD,3674,Semiconductors and Related Devices
+LOW,5211,Lumber and Other Building Materials Dealers
+PAYX,8700,"Membership Organizations, Not Elsewhere Classified"
+AON,6411,"Insurance Agents, Brokers, and Service"
+NBL,1311,Crude Petroleum and Natural Gas
+TMO,3829,"Measuring and Controlling Devices, Not Elsewhere Classified"
+CSX,4011,"Railroads, Line-Haul Operating"
+GL,6311,Life Insurance
+SWN,1321,Natural Gas Liquids
+CI,6324,Hospital and Medical Service Plans
+LB,5621,Women's Clothing Stores
+NSC,4011,"Railroads, Line-Haul Operating"
+PGR,6331,"Fire, Marine, and Casualty Insurance"
+PSA,4225,General Warehousing and Storage
+D,4911,Electric Services
+KEY,6021,National Commercial Banks
+LM,6282,Investment Advice
+AOS,3639,"Household Appliances, Not Elsewhere Classified"
+COO,3851,Ophthalmic Goods
+VZ,4813,"Telephone Communications, Except Radiotelephone"
+T,4813,"Telephone Communications, Except Radiotelephone"
+USB,6021,National Commercial Banks
+HD,5211,Lumber and Other Building Materials Dealers
+SLM,6141,Personal Credit Institutions
+WDC,3572,Computer Storage Devices
+AIG,6399,"Insurance Carriers, Not Elsewhere Classified"
+ITI,3663,Radio and Television Broadcasting and Communications Equipment
+BIG,5331,Variety Stores
+PEAK,6798,Real Estate Investment Trusts
+STI,6021,National Commercial Banks
+STJ,3845,Electromedical and Electrotherapeutic Apparatus
+MS,6211,"Security Brokers, Dealers, and Flotation Companies"
+MYL,2834,Pharmaceutical Preparations
+RJF,6221,Commodity Contracts Brokers and Dealers
+STZ,2084,"Wines, Brandy, and Brandy Spirits"
+HOG,3751,"Motorcycles, Bicycles, and Parts"
+APC,1321,Natural Gas Liquids
+C,6021,National Commercial Banks
+ECL,3822,Automatic Controls for Regulating Residential and Commercial Environments and Appliances
+UNM,6321,Accident and Health Insurance
+TFC,6021,National Commercial Banks
+STT,6022,State Commercial Banks
+SYK,3841,Surgical and Medical Instruments and Apparatus
+BKR,3533,Oil and Gas Field Machinery and Equipment
+TIF,5944,Jewelry Stores
+ABMD,3840,"Measuring and Controlling Devices, Not Elsewhere Classified"
+CCL,4481,"Deep Sea Transportation of Passengers, Except by Ferry"
+SCHW,6211,"Security Brokers, Dealers, and Flotation Companies"
+HAR,3714,Motor Vehicle Parts and Accessories
+PXD,1382,Oil and Gas Field Exploration Services
+DRE,6798,Real Estate Investment Trusts
+SPLS,5940,Used Merchandise Stores
+ADBE,7372,Prepackaged Software
+IEX,3561,Pumps and Pumping Equipment
+NLOK,7372,Prepackaged Software
+VTR,6798,Real Estate Investment Trusts
+EOG,1382,Oil and Gas Field Exploration Services
+EA,7372,Prepackaged Software
+CSCO,3674,Semiconductors and Related Devices
+COG,1311,Crude Petroleum and Natural Gas
+HOLX,3844,X-Ray Apparatus and Tubes and Related Irradiation Apparatus
+XLNX,3670,"Communications Equipment, Not Elsewhere Classified"
+VIAC,4833,Television Broadcasting Stations
+AN,5511,Motor Vehicle Dealers (New and Used)
+AZO,5531,Auto and Home Supply Stores
+REGN,2830,"Manmade Organic Fibers, Except Cellulosic"
+TSS,7363,Help Supply Services
+X,3312,"Steel Works, Blast Furnaces (Including Coke Ovens), and Rolling Mills"
+ATGE,8249,"Vocational Schools, Not Elsewhere Classified"
+IDXX,2830,"Manmade Organic Fibers, Except Cellulosic"
+AES,4911,Electric Services
+VRTX,2830,"Manmade Organic Fibers, Except Cellulosic"
+ZBRA,3577,"Computer Peripheral Equipment, Not Elsewhere Classified"
+BIIB,2836,"Biological Products, Except Diagnostic Substances"
+ODFL,4210,Terminal and Service Facilities for Motor Vehicle Passenger Transportation
+KIM,6798,Real Estate Investment Trusts
+OI,3221,Glass Containers
+QCOM,3663,Radio and Television Broadcasting and Communications Equipment
+PRGO,2834,Pharmaceutical Preparations
+GILD,2830,"Manmade Organic Fibers, Except Cellulosic"
+WFM,5411,Grocery Stores
+ROP,3823,"Industrial Instruments for Measurement, Display, and Control of Process Variables; and Related Products"
+SNPS,7370,Help Supply Services
+TWX,7313,"Radio, Television, and Publishers' Advertising Representatives"
+M,5311,Department Stores
+MHK,3253,Ceramic Wall and Floor Tile
+BSX,3841,Surgical and Medical Instruments and Apparatus
+KSS,5311,Department Stores
+STE,3842,"Orthopedic, Prosthetic, and Surgical Appliances and Supplies"
+BBBY,5700,Miscellaneous Apparel and Accessory Stores
+DHI,1531,Operative Builders
+ESRX,8093,"Specialty Outpatient Facilities, Not Elsewhere Classified"
+SBUX,5810,Musical Instrument Stores
+TSN,2011,Meat Packing Plants
+PDCO,5990,"Fuel Dealers, Not Elsewhere Classified"
+CHK,1321,Natural Gas Liquids
+AGN,2834,Pharmaceutical Preparations
+INTU,7370,Help Supply Services
+MCHP,3670,"Communications Equipment, Not Elsewhere Classified"
+CB,6331,"Fire, Marine, and Casualty Insurance"
+FOSL,3873,"Watches, Clocks, Clockwork Operated Devices, and Parts"
+JBL,3672,Printed Circuit Boards
+ORLY,5531,Auto and Home Supply Stores
+BPR,6798,Real Estate Investment Trusts
+RCL,4481,"Deep Sea Transportation of Passengers, Except by Ferry"
+RIG,1381,Drilling Oil and Gas Wells
+FLIR,3810,"Transportation Equipment, Not Elsewhere Classified"
+ALL,6331,"Fire, Marine, and Casualty Insurance"
+BWA,3714,Motor Vehicle Parts and Accessories
+EQR,6798,Real Estate Investment Trusts
+UHS,8062,General Medical and Surgical Hospitals
+ATVI,7370,Help Supply Services
+IT,8732,"Commercial Economic, Sociological, and Educational Research"
+REG,6798,Real Estate Investment Trusts
+NVR,1531,Operative Builders
+VIAV,3674,Semiconductors and Related Devices
+URBN,5650,Children's and Infants' Wear Stores
+INCY,8731,Commercial Physical and Biological Research
+NFX,1382,Oil and Gas Field Exploration Services
+EMN,2821,"Plastics Materials, Synthetic Resins, and Nonvulcanizable Elastomers"
+SPG,6798,Real Estate Investment Trusts
+MAA,6798,Real Estate Investment Trusts
+ALB,2821,"Plastics Materials, Synthetic Resins, and Nonvulcanizable Elastomers"
+MLM,1423,Crushed and Broken Granite
+TSCO,5999,"Miscellaneous Retail Stores, Not Elsewhere Classified"
+CPRT,5010,Irrigation Systems
+AVB,6798,Real Estate Investment Trusts
+MAC,6798,Real Estate Investment Trusts
+NKTR,2830,"Manmade Organic Fibers, Except Cellulosic"
+ESS,6798,Real Estate Investment Trusts
+AIV,6798,Real Estate Investment Trusts
+O,6798,Real Estate Investment Trusts
+COF,6021,National Commercial Banks
+MCK,8099,"Health and Allied Services, Not Elsewhere Classified"
+APOL,8200,Legal Services
+DLTR,5331,Variety Stores
+ABC,8099,"Health and Allied Services, Not Elsewhere Classified"
+COOP,6035,"Savings Institutions, Federally Chartered"
+DRI,5812,Eating Places
+LSI,6798,Real Estate Investment Trusts
+WAB,3743,Railroad Equipment
+DISH,4841,Cable and Other Pay Television Services
+RMD,3841,Surgical and Medical Instruments and Apparatus
+FCX,1021,Copper Ores
+IVZ,6282,Investment Advice
+WABC,6020,"Central Reserve Depository Institutions, Not Elsewhere Classified"
+DNR,1382,Oil and Gas Field Exploration Services
+DO,1381,Drilling Oil and Gas Wells
+RE,6331,"Fire, Marine, and Casualty Insurance"
+DVA,8099,"Health and Allied Services, Not Elsewhere Classified"
+HSIC,5047,"Medical, Dental, and Hospital Equipment and Supplies"
+NTAP,3572,Computer Storage Devices
+MLSS,3843,Dental Equipment and Supplies
+EL,2844,"Perfumes, Cosmetics, and Other Toilet Preparations"
+WAT,3826,Laboratory Analytical Instruments
+CTXS,7370,Help Supply Services
+HIG,6331,"Fire, Marine, and Casualty Insurance"
+ALXN,2830,"Manmade Organic Fibers, Except Cellulosic"
+IRM,4226,"Special Warehousing and Storage, Not Elsewhere Classified"
+TCX,7375,Information Retrieval Services
+DF,2026,Fluid Milk
+YHOO,7375,Information Retrieval Services
+ANSS,7370,Help Supply Services
+ETFC,6211,"Security Brokers, Dealers, and Flotation Companies"
+SRCL,4950,Water Supply
+ANF,5651,Family Clothing Stores
+NOV,3533,Oil and Gas Field Machinery and Equipment
+ZION,6021,National Commercial Banks
+DGX,8071,Medical Laboratories
+ROK,3621,Motors and Generators
+CMT,3089,"Plastics Products, Not Elsewhere Classified"
+TTWO,7370,Help Supply Services
+ARE,6531,Real Estate Agents and Managers
+APH,3678,Electronic Connectors
+AMZN,7370,Help Supply Services
+QRVO,3670,"Communications Equipment, Not Elsewhere Classified"
+BXP,6798,Real Estate Investment Trusts
+RL,2329,"Men's and Boys' Clothing, Not Elsewhere Classified"
+AME,3823,"Industrial Instruments for Measurement, Display, and Control of Process Variables; and Related Products"
+SLG,6798,Real Estate Investment Trusts
+VLO,2911,Petroleum Refining
+YUM,5812,Eating Places
+CHRW,4731,Arrangement of Transportation of Freight and Cargo
+PLD,6798,Real Estate Investment Trusts
+AMG,6282,Investment Advice
+MTD,3826,Laboratory Analytical Instruments
+ADSK,7370,Help Supply Services
+URI,7353,Heavy Construction Equipment Rental and Leasing
+EVHC,8011,Offices and Clinics of Doctors of Medicine
+VRSN,7372,Prepackaged Software
+PWR,1731,Electrical Work
+MAR,7011,Hotels and Motels
+BBY,5731,"Radio, Television, and Consumer Electronics Stores"
+SEE,3085,Plastics Bottles
+RLH,7011,Hotels and Motels
+LVLT,4813,"Telephone Communications, Except Radiotelephone"
+LLL,3812,"Search, Detection, Navigation, Guidance, Aeronautical, and Nautical Systems and Instruments"
+FII,6282,Investment Advice
+AMT,4813,"Telephone Communications, Except Radiotelephone"
+SRE,4612,Crude Petroleum Pipelines
+CTSH,7370,Help Supply Services
+RSG,4953,Refuse Systems
+XL,6351,Surety Insurance
+CCI,4812,Radiotelephone Communications
+EBAY,7389,"Business Services, Not Elsewhere Classified"
+NVDA,3670,"Communications Equipment, Not Elsewhere Classified"
+BKNG,7389,"Business Services, Not Elsewhere Classified"
+CNX,1221,Bituminous Coal and Lignite Surface Mining
+GS,6211,"Security Brokers, Dealers, and Flotation Companies"
+RAI,2111,Cigarettes
+FFIV,7372,Prepackaged Software
+JNPR,3577,"Computer Peripheral Equipment, Not Elsewhere Classified"
+SBAC,4899,"Communications Services, Not Elsewhere Classified"
+COST,5330,Department Stores
+DVN,1382,Oil and Gas Field Exploration Services
+RHT,7372,Prepackaged Software
+BLK,6211,"Security Brokers, Dealers, and Flotation Companies"
+AKAM,7372,Prepackaged Software
+A,3826,Laboratory Analytical Instruments
+UPS,4513,Air Courier Services
+PKG,2652,Setup Paperboard Boxes
+EW,3842,"Orthopedic, Prosthetic, and Surgical Appliances and Supplies"
+EXPD,4730,"Arrangement of Passenger Transportation, Not Elsewhere Classified"
+MET,6311,Life Insurance
+MNST,2086,Bottled and Canned Soft Drinks and Carbonated Waters
+ISRG,3842,"Orthopedic, Prosthetic, and Surgical Appliances and Supplies"
+ENDP,2834,Pharmaceutical Preparations
+ILMN,3826,Laboratory Analytical Instruments
+DNB,8999,"Services, Not Elsewhere Classified"
+TPR,3199,"Leather Goods, Not Elsewhere Classified"
+JKHY,7373,Computer Integrated Systems Design
+MON,2879,"Pesticides and Agricultural Chemicals, Not Elsewhere Classified"
+GRMN,3812,"Search, Detection, Navigation, Guidance, Aeronautical, and Nautical Systems and Instruments"
+AET,6324,Hospital and Medical Service Plans
+FLR,8711,Engineering Services
+ALGN,3843,Dental Equipment and Supplies
+GPN,7389,"Business Services, Not Elsewhere Classified"
+ADS,7322,Adjustment and Collection Services
+FIS,7374,Computer Processing and Data Preparation and Processing Services
+FTI,3533,Oil and Gas Field Machinery and Equipment
+MDLZ,2000,"Special Trade Contractors, Not Elsewhere Classified"
+COL,3728,"Aircraft Parts and Auxiliary Equipment, Not Elsewhere Classified"
+WLTW,6411,"Insurance Agents, Brokers, and Service"
+ZBH,3842,"Orthopedic, Prosthetic, and Surgical Appliances and Supplies"
+ACN,6719,"Offices of Holding Companies, Not Elsewhere Classified"
+JOY,3532,"Mining Machinery and Equipment, Except Oil and Gas Field Machinery and Equipment"
+MKCV,2099,"Food Preparations, Not Elsewhere Classified"
+ANTM,6324,Hospital and Medical Service Plans
+PFG,6321,Accident and Health Insurance
+AYI,3648,"Lighting Equipment, Not Elsewhere Classified"
+AAP,5531,Auto and Home Supply Stores
+PRU,6311,Life Insurance
+CNC,6324,Hospital and Medical Service Plans
+GME,5945,"Hobby, Toy, and Game Shops"
+NFLX,7841,Video Tape Rental
+KMX,5521,Motor Vehicle Dealers (Used Only)
+XEC,1382,Oil and Gas Field Exploration Services
+CMCSA,4841,Cable and Other Pay Television Services
+WYNN,7990,"Racing, Including Track Operation"
+EQIX,4813,"Telephone Communications, Except Radiotelephone"
+CME,6200,Loan Brokers
+STX,3572,Computer Storage Devices
+LENB,1531,Operative Builders
+SHLD,5331,Variety Stores
+LKQ,5015,"Motor Vehicle Parts, Used"
+AIZ,6399,"Insurance Carriers, Not Elsewhere Classified"
+NRG,4931,Electric and Other Services Combined
+GNW,6399,"Insurance Carriers, Not Elsewhere Classified"
+CBRE,6531,Real Estate Agents and Managers
+CRM,7372,Prepackaged Software
+WCG,6324,Hospital and Medical Service Plans
+EXR,8999,"Services, Not Elsewhere Classified"
+GOOGL,7375,Information Retrieval Services
+DLR,6798,Real Estate Investment Trusts
+MOS,2874,Phosphatic Fertilizers
+FOXA,2711,"Newspapers: Publishing, or Publishing and Printing"
+FOX,2711,"Newspapers: Publishing, or Publishing and Printing"
+MKTX,6211,"Security Brokers, Dealers, and Flotation Companies"
+LVS,7011,Hotels and Motels
+CE,2819,"Industrial Inorganic Chemicals, Not Elsewhere Classified"
+NE,1381,Drilling Oil and Gas Wells
+NDAQ,6200,Loan Brokers
+DISCA,4841,Cable and Other Pay Television Services
+EXPE,4833,Television Broadcasting Stations
+CF,2873,Nitrogenous Fertilizers
+AMP,6282,Investment Advice
+UAA,2329,"Men's and Boys' Clothing, Not Elsewhere Classified"
+ICE,6231,Security and Commodity Exchanges
+LYV,7922,Theatrical Producers (Except Motion Picture) and Miscellaneous Theatrical Services
+VIAB,4841,Cable and Other Pay Television Services
+CMG,5812,Eating Places
+UAL,4512,"Air Transportation, Scheduled"
+TDG,3728,"Aircraft Parts and Auxiliary Equipment, Not Elsewhere Classified"
+MA,7374,Computer Processing and Data Preparation and Processing Services
+WIN,4813,"Telephone Communications, Except Radiotelephone"
+WYND,7011,Hotels and Motels
+HBI,5699,Miscellaneous Apparel and Accessory Stores
+WU,6099,"Functions Related to Depository Banking, Not Elsewhere Classified"
+LDOS,7373,Computer Integrated Systems Design
+ROST,5650,Children's and Infants' Wear Stores
+FSLR,3674,Semiconductors and Related Devices
+SE,4923,Natural Gas Transmission and Distribution
+IPGP,3674,Semiconductors and Related Devices
+BR,7389,"Business Services, Not Elsewhere Classified"
+DAL,4512,"Air Transportation, Scheduled"
+TMUS,4812,Radiotelephone Communications
+DFS,6163,Loan Brokers
+TEL,5065,"Electronic Parts and Equipment, Not Elsewhere Classified"
+CXO,1382,Oil and Gas Field Exploration Services
+TDC,3571,Electronic Computers
+ULTA,5999,"Miscellaneous Retail Stores, Not Elsewhere Classified"
+MSCI,6289,"Services Allied With the Exchange of Securities or Commodities, Not Elsewhere Classified"
+PM,2111,Cigarettes
+V,7374,Computer Processing and Data Preparation and Processing Services
+AWK,4941,Water Supply
+DPS,2086,Bottled and Canned Soft Drinks and Carbonated Waters
+UNH,6324,Hospital and Medical Service Plans
+SNI,4841,Cable and Other Pay Television Services
+DISCK,4841,Cable and Other Pay Television Services
+MJN,2023,"Dry, Condensed, and Evaporated Dairy Products"
+AVGO,9999,Nonclassifiable Establishments
+VRSK,9999,Nonclassifiable Establishments
+DG,5331,Variety Stores
+FTNT,9999,Nonclassifiable Establishments
+VAL,1381,Drilling Oil and Gas Wells
+QEP,1311,Crude Petroleum and Natural Gas
+CBOE,6231,Security and Commodity Exchanges
